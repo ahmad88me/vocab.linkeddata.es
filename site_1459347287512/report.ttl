@@ -12,46 +12,24 @@
 <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
         a       owl:DatatypeProperty .
 
-<http://vocab.linkeddata.es/ontology/report#ENTRY1459345512730HTTPPURLORGNETP-PLAN>
+<http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1459347292575HTTPPURLORGNETP-PLAN>
         a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
         rdfs:label  "Entry for vocab http://purl.org/net/p-plan" ;
         <http://vocab.linkeddata.es/ontology/report#entrySubject>
                 "http://purl.org/net/p-plan" ;
         <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1459345512730> ;
+                <http://vocab.linkeddata.es/ontology/report#REPORT1459347292575> ;
         <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
                 "http://vocab.linkeddata.es/ontology/report#success" .
 
-<http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-        a       rdf:Property .
-
-<http://vocab.linkeddata.es/ontology/report#numberVocabsError>
-        a       owl:DatatypeProperty .
-
-<http://vocab.linkeddata.es/ontology/report#reportDate>
-        a       owl:DatatypeProperty .
-
-<http://vocab.linkeddata.es/ontology/report#ENTRY1459345512730HTTPPURLORGNETWF-MOTIFS>
-        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
-        rdfs:label  "Entry for vocab http://purl.org/net/wf-motifs" ;
-        <http://vocab.linkeddata.es/ontology/report#entrySubject>
-                "http://purl.org/net/wf-motifs" ;
-        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-                <http://vocab.linkeddata.es/ontology/report#REPORT1459345512730> ;
-        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
-                "http://vocab.linkeddata.es/ontology/report#success" .
-
-<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
-        a       rdf:Property .
-
-<http://vocab.linkeddata.es/ontology/report#Entry>
-        a       owl:Class .
-
-<http://vocab.linkeddata.es/ontology/report#REPORT1459345512730>
+<http://vocab.linkeddata.es/ontology/report#REPORT1459347292575>
         a           <http://vocab.linkeddata.es/ontology/report#Report> ;
-        rdfs:label  "Report created on Wed Mar 30 15:45:12 CEST 2016" ;
+        rdfs:label  "Report created on Wed Mar 30 16:14:52 CEST 2016" ;
         <http://vocab.linkeddata.es/ontology/report#hasEntry>
-                <http://vocab.linkeddata.es/ontology/report#ENTRY1459345512730HTTPPURLORGNETWF-MOTIFS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1459345512730HTTPPURLORGNETP-PLAN> ;
+                <http://vocab.linkeddata.es/ontology/report#ENTRY1459347292575HTTPPURLORGNETWF-MOTIFS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1459347292575HTTPPURLORGNETP-PLAN> ;
         <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
                 "0" ;
         <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
@@ -59,7 +37,29 @@
         <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
                 "0" ;
         <http://vocab.linkeddata.es/ontology/report#reportDate>
-                "Wed Mar 30 15:45:12 CEST 2016"^^xsd:dateTime .
+                "Wed Mar 30 16:14:52 CEST 2016"^^xsd:dateTime .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#reportDate>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#Entry>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1459347292575HTTPPURLORGNETWF-MOTIFS>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/wf-motifs" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/wf-motifs" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1459347292575> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
 
 <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
         a       owl:DatatypeProperty .
