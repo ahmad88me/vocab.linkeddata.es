@@ -151,7 +151,19 @@ $('#collapse2').html(' Ontology for describing Workflow Motifs. Workflow Motifs 
 </td>
 <td>
 Extension of the video game ontology to represent the main concepts of the game Coil</td>
-<input type="hidden" name="inp3" id="inp3" value="Coil Videogame Ontology--videogame--"/></tr></tbody></table>
+<input type="hidden" name="inp3" id="inp3" value="Coil Videogame Ontology--videogame--"/></tr><tr id="tr4">
+<td><a href = "https://w3id.org/games/spec/asteroids" target="_blank">Asteroids Videogame Ontology</a> <a href = "ontologies/w3id.orggamesspecasteroids.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">html</span>
+<span class="label label-primary">turtle</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by-nc-sa2.0" target="_blank"> <span class="label label-success">CC-BY-NC-SA</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">videogame</span>
+</td>
+<td>
+Extension of the video game ontology to represent the main concepts of the game Asteroids</td>
+<input type="hidden" name="inp4" id="inp4" value="Asteroids Videogame Ontology--videogame--"/></tr></tbody></table>
 <hr>
       <footer class="footer">
             <div class="row">
@@ -174,7 +186,7 @@ Extension of the video game ontology to represent the main concepts of the game 
 $(function() {
 var availableTags = [
 "The P-Plan ontology"
-, "e-Science", "plan", "provenance", "scientific workflow", "The Workflow Motif Ontology", "workflow abstraction", "Coil Videogame Ontology", "videogame"];
+, "e-Science", "plan", "provenance", "scientific workflow", "The Workflow Motif Ontology", "workflow abstraction", "Coil Videogame Ontology", "videogame", "Asteroids Videogame Ontology"];
 $( "#tags" ).autocomplete({
 source: availableTags,
 select: function(event, ui) {
