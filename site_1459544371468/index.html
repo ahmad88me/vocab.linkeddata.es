@@ -97,34 +97,6 @@
 </thead>
 <tbody>
 <tr id="tr1">
-<td><a href = "http://purl.org/net/wf-motifs" target="_blank">The Workflow Motif Ontology</a> <a href = "ontologies/purl.orgnetwf-motifs.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
-<td>
-<span class="label label-primary">rdf+xml</span>
-<span class="label label-primary">html</span>
-</td>
-<td><a href="http://purl.org/NET/rdflicense/cc-by-nc-sa2.0" target="_blank"> <span class="label label-success">CC-BY-NC-SA</span> </a></td>
-<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
-<td><span class="label label-primary">e-Science</span>
-<span class="label label-primary">workflow abstraction</span>
-</td>
-<td>
-<p id="collapse1" data-toggle="collapse" >
- Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed ... <a class="more1">See more</a>
-</p>
-<script>
-$('#collapse1').click(function () {
-if($('a').hasClass('more1'))
-{
-$('#collapse1').html(' Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed in workflows (data-operation motifs) and the different manners in which activities are implemented within workflows (workflow-oriented motifs).  <a class="less1">See less<a>'); 
-}
-else
-{      
-$('#collapse1').html(' Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed ...  <a  class="more1">See more</a>'); 
-}
-}); 
-</script>
-</td>
-<input type="hidden" name="inp1" id="inp1" value="The Workflow Motif Ontology--e-Science--workflow abstraction--"/></tr><tr id="tr2">
 <td><a href = "https://w3id.org/games/spec/coil" target="_blank">Coil Videogame Ontology</a> <a href = "ontologies/w3id.orggamesspeccoil.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
 <td>
 <span class="label label-primary">html</span>
@@ -136,7 +108,7 @@ $('#collapse1').html(' Ontology for describing Workflow Motifs. Workflow Motifs 
 </td>
 <td>
 Extension of the video game ontology to represent the main concepts of the game Coil</td>
-<input type="hidden" name="inp2" id="inp2" value="Coil Videogame Ontology--videogame--"/></tr><tr id="tr3">
+<input type="hidden" name="inp1" id="inp1" value="Coil Videogame Ontology--videogame--"/></tr><tr id="tr2">
 <td><a href = "https://w3id.org/games/spec/asteroids" target="_blank">Asteroids Videogame Ontology</a> <a href = "ontologies/w3id.orggamesspecasteroids.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
 <td>
 <span class="label label-primary">html</span>
@@ -148,7 +120,7 @@ Extension of the video game ontology to represent the main concepts of the game 
 </td>
 <td>
 Extension of the video game ontology to represent the main concepts of the game Asteroids</td>
-<input type="hidden" name="inp3" id="inp3" value="Asteroids Videogame Ontology--videogame--"/></tr><tr id="tr4">
+<input type="hidden" name="inp2" id="inp2" value="Asteroids Videogame Ontology--videogame--"/></tr><tr id="tr3">
 <td><a href = "https://w3id.org/games/spec/browserquest" target="_blank">Browser Quest Videogame Ontology</a> <a href = "ontologies/w3id.orggamesspecbrowserquest.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
 <td>
 <span class="label label-primary">html</span>
@@ -160,7 +132,7 @@ Extension of the video game ontology to represent the main concepts of the game 
 </td>
 <td>
 Extension of the video game ontology to represent the main concepts of the game Browser Quest</td>
-<input type="hidden" name="inp4" id="inp4" value="Browser Quest Videogame Ontology--videogame--"/></tr></tbody></table>
+<input type="hidden" name="inp3" id="inp3" value="Browser Quest Videogame Ontology--videogame--"/></tr></tbody></table>
 <hr>
       <footer class="footer">
             <div class="row">
@@ -182,8 +154,8 @@ Extension of the video game ontology to represent the main concepts of the game 
 <script>
 $(function() {
 var availableTags = [
-"The Workflow Motif Ontology"
-, "e-Science", "workflow abstraction", "Coil Videogame Ontology", "videogame", "Asteroids Videogame Ontology", "Browser Quest Videogame Ontology"];
+"Coil Videogame Ontology"
+, "videogame", "Asteroids Videogame Ontology", "Browser Quest Videogame Ontology"];
 $( "#tags" ).autocomplete({
 source: availableTags,
 select: function(event, ui) {
