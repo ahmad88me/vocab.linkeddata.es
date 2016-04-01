@@ -111,7 +111,35 @@
 </td>
 <td>
 PROV extension for linking Plans and parts of plans to their respective executions.</td>
-<input type="hidden" name="inp1" id="inp1" value="The P-Plan ontology--e-Science--plan--provenance--scientific workflow--"/></tr></tbody></table>
+<input type="hidden" name="inp1" id="inp1" value="The P-Plan ontology--e-Science--plan--provenance--scientific workflow--"/></tr><tr id="tr2">
+<td><a href = "http://purl.org/net/wf-motifs" target="_blank">The Workflow Motif Ontology</a> <a href = "ontologies/purl.orgnetwf-motifs.html" target="_blank"><span class="glyphicon glyphicon-info-sign" data-toggle="tooltip" data-placement="bottom" title="More information about this vocabulary"/></a></td>
+<td>
+<span class="label label-primary">rdf+xml</span>
+<span class="label label-primary">html</span>
+</td>
+<td><a href="http://purl.org/NET/rdflicense/cc-by-nc-sa2.0" target="_blank"> <span class="label label-success">CC-BY-NC-SA</span> </a></td>
+<td><a href="http://lexvo.org/id/iso639-3/eng" target="_blank"> <span class="label label-primary">en</span></a> </td>
+<td><span class="label label-primary">e-Science</span>
+<span class="label label-primary">workflow abstraction</span>
+</td>
+<td>
+<p id="collapse2" data-toggle="collapse" >
+ Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed ... <a class="more2">See more</a>
+</p>
+<script>
+$('#collapse2').click(function () {
+if($('a').hasClass('more2'))
+{
+$('#collapse2').html(' Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed in workflows (data-operation motifs) and the different manners in which activities are implemented within workflows (workflow-oriented motifs).  <a class="less2">See less<a>'); 
+}
+else
+{      
+$('#collapse2').html(' Ontology for describing Workflow Motifs. Workflow Motifs outline the kinds of data-intensive activities that are observed ...  <a  class="more2">See more</a>'); 
+}
+}); 
+</script>
+</td>
+<input type="hidden" name="inp2" id="inp2" value="The Workflow Motif Ontology--e-Science--workflow abstraction--"/></tr></tbody></table>
 <hr>
       <footer class="footer">
             <div class="row">
@@ -134,7 +162,7 @@ PROV extension for linking Plans and parts of plans to their respective executio
 $(function() {
 var availableTags = [
 "The P-Plan ontology"
-, "e-Science", "plan", "provenance", "scientific workflow"];
+, "e-Science", "plan", "provenance", "scientific workflow", "The Workflow Motif Ontology", "workflow abstraction"];
 $( "#tags" ).autocomplete({
 source: availableTags,
 select: function(event, ui) {
