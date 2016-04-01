@@ -1,0 +1,80 @@
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://vocab.linkeddata.es/ontology/report#entrySubject>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#hasEntry>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1459352322430HTTPSW3IDORGGAMESSPECCOIL>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab https://w3id.org/games/spec/coil" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                <http://vocab.linkeddata.es/ontology/report#https:/_W3ID.ORG_GAMES_SPEC_COIL> ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1459352322430> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1459352322430HTTPPURLORGNETWF-MOTIFS>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/wf-motifs" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/wf-motifs" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1459352322430> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+<http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#reportDate>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+        a       rdf:Property .
+
+<http://vocab.linkeddata.es/ontology/report#REPORT1459352322430>
+        a           <http://vocab.linkeddata.es/ontology/report#Report> ;
+        rdfs:label  "Report created on Wed Mar 30 17:38:42 CEST 2016" ;
+        <http://vocab.linkeddata.es/ontology/report#hasEntry>
+                <http://vocab.linkeddata.es/ontology/report#ENTRY1459352322430HTTPSW3IDORGGAMESSPECCOIL> , <http://vocab.linkeddata.es/ontology/report#ENTRY1459352322430HTTPPURLORGNETWF-MOTIFS> , <http://vocab.linkeddata.es/ontology/report#ENTRY1459352322430HTTPPURLORGNETP-PLAN> ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsError>
+                "0" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsOK>
+                "3" ;
+        <http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+                "0" ;
+        <http://vocab.linkeddata.es/ontology/report#reportDate>
+                "Wed Mar 30 17:38:42 CEST 2016"^^xsd:dateTime .
+
+<http://vocab.linkeddata.es/ontology/report#Entry>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#numberVocabsWarning>
+        a       owl:DatatypeProperty .
+
+<http://vocab.linkeddata.es/ontology/report#Report>
+        a       owl:Class .
+
+<http://vocab.linkeddata.es/ontology/report#ENTRY1459352322430HTTPPURLORGNETP-PLAN>
+        a           <http://vocab.linkeddata.es/ontology/report#Entry> ;
+        rdfs:label  "Entry for vocab http://purl.org/net/p-plan" ;
+        <http://vocab.linkeddata.es/ontology/report#entrySubject>
+                "http://purl.org/net/p-plan" ;
+        <http://vocab.linkeddata.es/ontology/report#isEntryOfReport>
+                <http://vocab.linkeddata.es/ontology/report#REPORT1459352322430> ;
+        <http://vocab.linkeddata.es/ontology/report#vocabularyStatus>
+                "http://vocab.linkeddata.es/ontology/report#success" .
+
+rdfs:label  a   owl:DatatypeProperty .
